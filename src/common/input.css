@@ -1,0 +1,75 @@
+.formControl {
+    margin-bottom: 20px;
+  }
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  input + label {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 400px;
+    padding: 6px 12px;
+    display: block;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus{
+      border: 2px solid #6d28d9;
+      outline: none;
+  }
+  .error {
+
+    width: 400px;
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .formControl {
+      margin-bottom: 10px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    input + label {
+      font-weight: bold;
+      display: block;
+      margin-right: 20px;
+      margin-left: 5px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 6px 12px;
+      display: block;
+      background-color: #fff;
+      color: #444;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input:focus{
+        border: 2px solid #6d28d9;
+        outline: none;
+    }
+    .error {
+      width: 100%;
+      color: red;
+    }
+  }

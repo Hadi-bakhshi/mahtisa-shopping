@@ -1,0 +1,109 @@
+.homecontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /* height: 100vh; */
+}
+
+.wrappHome {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1170px;
+  width: 90vw;
+  text-align: center;
+  height: 60%;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.btnhome {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: #6d28d9;
+  color: #ede9fe;
+  cursor: pointer;
+}
+
+.left p {
+  width: 70%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeImage {
+  height: 100%;
+  width: 70%;
+}
+
+.sneakerimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slidercontainer {
+  border-radius: 5px;
+  max-width: 1170px;
+  width: 90vw;
+  text-align: center;
+  height: 100%;
+  cursor: pointer;
+  margin: 3rem 0;
+}
+.slidercontainer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+.cardssection{
+  max-width: 1170px;
+  width: 90vw;
+  text-align: center;
+  height: 100%;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+
+@media (max-width: 768px) {
+.wrappHome{
+  flex-direction: column-reverse;
+  margin-bottom: 2rem;
+}
+.left, .right {
+  width: 100%;
+}
+.left h2{
+  font-size: 1.5rem;
+}
+.left p{
+  width: 90%;
+}
+}

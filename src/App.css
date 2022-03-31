@@ -1,0 +1,28 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #ede9fe;
+  color: #6d28d9;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.primary {
+  background-color: #6d28d9;
+  color: #ede9fe;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #636363;
+}
+/* Cart page styles */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+}

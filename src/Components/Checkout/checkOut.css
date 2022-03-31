@@ -1,0 +1,51 @@
+.buyer-info {
+  display: flex;
+  flex-direction: column;
+}
+.buyer-info h3 {
+  margin-bottom: 10px;
+}
+.buyer-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.buyer-info div p {
+  font-weight: 400;
+}
+.buyer-info div span {
+  font-weight: 500;
+}
+.receiptTitle {
+  margin-bottom: 10px;
+}
+.finalItems-buy {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.buyBtn {
+  margin-top: 2rem;
+}
+
+.cartSummary-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 30%;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .cartSummary-container {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .cartSummary-container {
+    width: 100%;
+  }
+}

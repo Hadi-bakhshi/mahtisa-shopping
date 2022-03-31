@@ -1,0 +1,81 @@
+footer {
+  background-color: #f7f7f7;
+  height: 200px;
+  max-width: 1170px;
+  width: 90vw;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 50%;
+}
+.socialMediaTitle h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+.socialMediaIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.socialMediaIcons a {
+  display: block;
+  color: #42168a;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.copyrightSection {
+  margin-bottom: 20px;
+}
+.copyrightSection div p {
+  color: #ccc;
+}
+
+@media (max-width: 600px) {
+  footer {
+    max-width: 100%;
+    width: 100%;
+  }
+  .footerSection {
+    flex-direction: column-reverse;
+  }
+  .contactInfo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contactInfoItems {
+    margin-top: 20px;
+  }
+  .socialMedia {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .socialMediaIcons {
+    margin-top: 20px;
+  }
+  .socialMediaIcons a {
+    font-size: 1.2rem;
+  }
+}
