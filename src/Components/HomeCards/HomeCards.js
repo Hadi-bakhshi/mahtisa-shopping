@@ -1,7 +1,7 @@
 import styles from './homecard.module.css'
-import browserImg from "../../assets/3968608.jpg";
-import supportImg from "../../assets/20943941.jpg";
-import moneyBack from '../../assets/3588982.jpg'
+import browserImg from "../../assets/3968608.webp";
+import supportImg from "../../assets/20943941.webp";
+import moneyBack from '../../assets/3588982.webp'
 
 const HomeCards = () => {
   return (
