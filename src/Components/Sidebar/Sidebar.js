@@ -9,8 +9,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { BsList } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import HomeIcon from '@mui/icons-material/Home';
-import CategoryIcon from '@mui/icons-material/Category';
+import HomeIcon from "@mui/icons-material/Home";
+import CategoryIcon from "@mui/icons-material/Category";
 
 export default function Sidebar() {
   const [state, setState] = React.useState({ left: false });
@@ -35,14 +35,16 @@ export default function Sidebar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {[<Link to="/">Home</Link>, <Link to="/products">Products</Link>].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <HomeIcon /> : <CategoryIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+        {[<Link to="/">Home</Link>, <Link to="/products">Products</Link>].map(
+          (text, index) => (
+            <ListItem button key={text}>
+              <ListItemIcon>
+                {index % 2 === 0 ? <HomeIcon /> : <CategoryIcon />}
+              </ListItemIcon>
+              <ListItemText primary={text} />
+            </ListItem>
+          )
+        )}
       </List>
       <Divider />
     </Box>
@@ -51,9 +53,9 @@ export default function Sidebar() {
   return (
     <div>
       {["left"].map((anchor) => (
-        <React.Fragment key={anchor}>
+        <React.Fragment  key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-            <BsList />
+            <BsList className="sidebar_logo" />
           </Button>
           <SwipeableDrawer
             anchor={anchor}

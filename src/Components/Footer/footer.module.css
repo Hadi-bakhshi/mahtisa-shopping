@@ -51,6 +51,7 @@ footer {
 }
 .copyrightSection div p {
   color: #ccc;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -78,4 +79,8 @@ footer {
   .socialMediaIcons a {
     font-size: 1.2rem;
   }
+    .copyrightSection p {
+      -webkit-line-clamp: 1;
+      margin: auto 10px;
+    }
 }

@@ -17,22 +17,21 @@
   height: 100%;
   margin: 0 auto;
 }
-.logo-menu{
+.logo-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-
-.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+.sidebar_logo {
   margin-left: 1rem !important;
-  font-size: 1.7rem!important;
-  font-weight: 600!important;
-  color: #444 !important; 
+  font-size: 1.7rem !important;
+  font-weight: 600 !important;
+  color: #444 !important;
   cursor: pointer;
 }
 
-.nav-logo{
+.nav-logo {
   margin-left: 1rem;
   font-size: 1.5rem;
   color: #fbbf24;
@@ -61,13 +60,13 @@
   color: #ede9fe;
 }
 
-.cart-profile{
+.cart-profile {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-.cart-profile a{
+.cart-profile a {
   padding: 0.5rem 1rem;
   font-size: 16px;
   font-weight: bold;
@@ -75,16 +74,16 @@
   background-color: #f7f7f7;
   color: #444;
 }
-.cart-profile a:hover{
+.cart-profile a:hover {
   color: #ccc;
 }
 
-.cartLinkBadge{
+.cartLinkBadge {
   position: relative;
 }
-.cartCount{
+.cartCount {
   top: -10px;
-  right:1px;
+  right: 1px;
   position: absolute;
   display: flex;
   align-items: center;
@@ -94,8 +93,8 @@
   border-radius: 50%;
   background-color: red;
   color: #fff;
-
 }
-.cart-icon ,.profile-icon{
+.cart-icon,
+.profile-icon {
   font-size: 1.5rem;
 }
