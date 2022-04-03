@@ -22,5 +22,3 @@ This is a shopping app that I'm developing it by ReactJS.
 
   <h4>Demo</h4>
   <a href="https://mahtisa-shopping-center.vercel.app/products">Visit Project</a>
-  <img src="https://drive.google.com/uc?export=download&id=1fxj5cUC3r99oFFJJ97MR1dyhAV1l-SeC"/>
-  <img src="https://drive.google.com/uc?export=download&id=1TZZDtsYZkVv0LHAZR9iFj9oDqWfxhq7A" />
