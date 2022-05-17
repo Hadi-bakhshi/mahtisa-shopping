@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL= "https://mahtisa-shopping.iran.liara.run/api";
+axios.defaults.baseURL= "https://mahtisa-shopping.herokuapp.com/api";
 
 
 const http ={
